@@ -70,8 +70,9 @@ d = "Grace"
 ```
 
 Write code to output both the total characters in all the names together and the average length of the names.
-"#{a}#{b}#{c}#{d}"
-(a.length + b.length + c.length + d.length) / 4.0
+
+    "#{a}#{b}#{c}#{d}"
+    (a.length + b.length + c.length + d.length) / 4.0
 
 ### Happy Birthday
 
@@ -80,12 +81,12 @@ four we'd say "Happy happy happy happy birthday!" Note the capitalization.
 
 Say you have an `age` variable that holds the person's age. Write code to output the appropriate greeting.
 
-   age = 5
-print "Happy "
-(age - 1).times do |happy|
-  print "happy "
-end
-print "birthday!"
+    age = 5
+    print "Happy "
+    (age - 1).times do |happy|
+      print "happy "
+    end
+    print "birthday!"
 
 ### String Compression
 
@@ -94,6 +95,6 @@ and the last letter. So for the string `"Kalamazoo"` it'd output `"K7o"` or `"De
 Can you write code to implement that?
 
     word_shorten = gets.chomp
-print word_shorten[0]
-print word_shorten.length - 2
-print word_shorten[-1]
+    print word_shorten[0]
+    print word_shorten.length - 2
+    print word_shorten[-1]
